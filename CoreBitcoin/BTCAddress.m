@@ -10,8 +10,8 @@
 
 enum
 {
-    BTCPublicKeyAddressVersion         = 48,    // This is for Litecoin.
-    BTCPrivateKeyAddressVersion        = 176,   // This is for Litecoin.
+    BTCPublicKeyAddressVersion         = 30,    // Address prefix = 'D' 
+    BTCPrivateKeyAddressVersion        = 158,   // Address prefix = 'D'
     BTCScriptHashAddressVersion        = 5,
     BTCPublicKeyAddressVersionTestnet  = 111,
     BTCPrivateKeyAddressVersionTestnet = 239,
